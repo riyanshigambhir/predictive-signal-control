@@ -1,0 +1,55 @@
+{
+  "created": "2026-11-09T18:25:07",
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "scale": 1.0,
+  "controller": "fixed (NSA/NSLA/EWA/EWLA greens (30, 15, 30, 15), yellow between phases)",
+  "python": "3.10.22",
+  "platform": "macOS-26.2-arm64-arm-64bit",
+  "numpy": "2.2.6",
+  "sumo": "Eclipse SUMO sumo 1.28.0",
+  "git_commit": "0f1813c",
+  "edge_len_m": 750.0,
+  "zone_len_m": 150.0,
+  "occupancy_len_m": 300.0,
+  "cell_m": 10.0,
+  "episode_s": 5400,
+  "yellow_s": 4,
+  "scenarios": {
+    "low": [
+      600,
+      0.5
+    ],
+    "high": [
+      4000,
+      0.5
+    ],
+    "ns": [
+      2000,
+      0.9
+    ],
+    "ew": [
+      2000,
+      0.1
+    ]
+  },
+  "turn_split": [
+    0.75,
+    0.125,
+    0.125
+  ],
+  "speed_limit_mps": 13.89,
+  "weibull_shape": 2,
+  "clear_out_s": 200,
+  "depart_speed_mps": 10,
+  "vehicle": {
+    "length_m": 5.0,
+    "min_gap_m": 2.5,
+    "accel": 1.0,
+    "decel": 4.5,
+    "sigma": 0.5
+  }
+}

@@ -1,0 +1,22 @@
+<connections>
+  <connection from="N_C" to="C_W" fromLane="0" toLane="0" tl="C"/>
+  <connection from="N_C" to="C_S" fromLane="0" toLane="0" tl="C"/>
+  <connection from="N_C" to="C_S" fromLane="1" toLane="1" tl="C"/>
+  <connection from="N_C" to="C_S" fromLane="2" toLane="2" tl="C"/>
+  <connection from="N_C" to="C_E" fromLane="3" toLane="3" tl="C"/>
+  <connection from="S_C" to="C_E" fromLane="0" toLane="0" tl="C"/>
+  <connection from="S_C" to="C_N" fromLane="0" toLane="0" tl="C"/>
+  <connection from="S_C" to="C_N" fromLane="1" toLane="1" tl="C"/>
+  <connection from="S_C" to="C_N" fromLane="2" toLane="2" tl="C"/>
+  <connection from="S_C" to="C_W" fromLane="3" toLane="3" tl="C"/>
+  <connection from="E_C" to="C_N" fromLane="0" toLane="0" tl="C"/>
+  <connection from="E_C" to="C_W" fromLane="0" toLane="0" tl="C"/>
+  <connection from="E_C" to="C_W" fromLane="1" toLane="1" tl="C"/>
+  <connection from="E_C" to="C_W" fromLane="2" toLane="2" tl="C"/>
+  <connection from="E_C" to="C_S" fromLane="3" toLane="3" tl="C"/>
+  <connection from="W_C" to="C_S" fromLane="0" toLane="0" tl="C"/>
+  <connection from="W_C" to="C_E" fromLane="0" toLane="0" tl="C"/>
+  <connection from="W_C" to="C_E" fromLane="1" toLane="1" tl="C"/>
+  <connection from="W_C" to="C_E" fromLane="2" toLane="2" tl="C"/>
+  <connection from="W_C" to="C_N" fromLane="3" toLane="3" tl="C"/>
+</connections>
