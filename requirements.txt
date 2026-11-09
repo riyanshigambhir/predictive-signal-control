@@ -1,0 +1,9 @@
+eclipse-sumo
+traci
+sumolib
+numpy
+pandas
+scikit-learn
+statsmodels
+matplotlib
+# torch   # needed from the DQN and neural forecasters onward

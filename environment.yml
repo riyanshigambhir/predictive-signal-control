@@ -1,0 +1,16 @@
+name: signal-ai
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - pip
+  - pip:
+      - eclipse-sumo
+      - traci
+      - sumolib
+      # - torch   # needed from the DQN and neural forecasters onward
